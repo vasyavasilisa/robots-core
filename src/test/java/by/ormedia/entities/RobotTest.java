@@ -11,7 +11,7 @@ public class RobotTest extends TestCase {
 		assertEquals("Fields name didn't match", "robot", robot.getName());
 	}
 
-	public void testSetGetDate() throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException {
+	public void testSetGetDate() {
 		Robot robot = new Robot();
 		Date date = new Date();
 		robot.setIssueDate(date);
